@@ -4,12 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+function Pizza() {
+  return (
+    <body>
+      <img src="pizzas\spinaci.jpg" alt=""  />
+      <h2>Pizza Spinnaci</h2>
+      <p>Tomato, mozarella, and pepperoni</p>
+    </body>
+  );
+}
+
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <Pizza/>
   </React.StrictMode>
 );
 
